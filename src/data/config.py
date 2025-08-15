@@ -1,8 +1,6 @@
 import os,json
 from dataclasses import asdict
 
-
-
 def load_or_create_config(path: str = CONFIG_PATH) -> Config:
     if os.path.exists(path):
         with open(path, 'r') as f:
