@@ -1,5 +1,3 @@
-
-
 from fastapi import FastAPI, HTTPException, status
 from pydantic import BaseModel, Field
 from typing import List, Dict
@@ -17,7 +15,7 @@ class AgentBase(BaseModel):
     """Base model with all common agent attributes."""
     name: str = Field(..., example="Nexus")
     description: str = Field(..., example="A helpful AI assistant for data analysis.")
-    lore: str = Field(..., example="Created in the labs of OmniCorp.")
+    lore: str = Field(..., example="Created in the labs of Aktiva Institute.")
     personality: str = Field(..., example="Analytical, precise, and friendly.")
     instructions: str = Field(..., example="Always provide data-driven answers. Cite your sources.")
     metadata: Dict = Field(default_factory=dict, example={"version": "1.2"})

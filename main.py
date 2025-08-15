@@ -3,7 +3,6 @@
 from fastapi import FastAPI
 
 # Import the logic from our other file
-from agent_manager import AgentManager, AgentDataClass
 
 app = FastAPI(
     title="Agent Management API",
