@@ -28,7 +28,6 @@ class AgentConfigManager:
         """Context manager for working with a specific agent"""
         yield AgentContext(self, agent_id)
 
-
 class AgentContext:
     """Simple context for agent operations"""
     
