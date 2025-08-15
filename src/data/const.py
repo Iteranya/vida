@@ -1,3 +1,4 @@
-CONFIG_PATH = "configurations/bot_config.json"
-CHARACTER_PATH = "res/characters/"
-DIMENSION_PATH = "res/servers/"
+GLOBAL_CONFIG_PATH = "res/assets/global_config.json"
+SECRET_CONFIG_PATH = "res/assets/secrets.json"
+AGENT_PATH = "res/agents/"
+ASSET_PATH = "res/assets/"
